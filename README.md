@@ -26,6 +26,6 @@
   ```
     ng serve
   ```
-
+![Alt text](imagen.png)
 > [!NOTE]
 > URL Frontend = [localhost](http://localhost:4200/register)
