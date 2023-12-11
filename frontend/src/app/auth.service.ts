@@ -1,3 +1,4 @@
+// auth.service.ts
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -17,5 +18,13 @@ export class AuthService {
   login(userData: any) {
     return this.http.post(`${this.apiUrl}/login`, userData);
   }
-}
 
+  isAuthenticated(): boolean {
+    return !!localStorage.getItem('token');
+  }
+
+  logout(): void {
+    // Elimina el token del almacenamiento local al cerrar sesión
+    localStorage.removeItem('token');
+  }
+}

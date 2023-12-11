@@ -1,3 +1,6 @@
+  > [!IMPORTANT]  
+  > Angular CLI Version: 16.2.10
+
   # BACKEND
 
   ## Iniciar Proyecto
@@ -21,11 +24,23 @@
   ```
     npm install
   ```
+  > [!TIP]
+  > Para poder utilizar Tailwind con Angular
+  >
+  > ```npm install -D tailwindcss postcss autoprefixer``` 
+  >
+  > ```npx tailwindcss init```
+  
   ## Iniciar Proyecto
-
   ```
     ng serve
   ```
-![Alt text](imagen.png)
+
+![Alt text](/img/login.png)
+![Alt text](/img/register.png)
+![Alt text](/img/home.png)
+![Alt text](/img/home1.png)
+![Alt text](/img/dashboard.png)
+
 > [!NOTE]
-> URL Frontend = [localhost](http://localhost:4200/register)
+> URL = [Home](http://localhost:4200/)
